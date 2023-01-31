@@ -7,11 +7,11 @@ namespace Dws.Note_one.Api.Cotrollers {
 
     public class CategoryController : Controller
     {
-        private readonly ICategoryService _categpryService;
+        private readonly ICategoryService _categoryService;
 
         public CategoryController(ICategoryService categoryService)
         {
-            _categpryService = categoryService;
+            _categoryService = categoryService;
         }
 
         [HttpGet]
